@@ -202,7 +202,7 @@
 		place { control="frame_captiongrip" margin=2 width=max height=35 }
 
 		place { control="UINavigatorPanel" width=max height=max margin-right=0 margin-left=0 margin-bottom=0 margin-top=0 }
-		place [!$OSX] { control="MenuBar" align=top width=28 height=35 }
+		place [!$OSX] { control="MenuBar" align=top width=28 x=5 height=35 }
 
 		place { control="SupportAlert" align=right end-right="frame_minimize" margin-top=1 margin-right=32 height=26 }
 

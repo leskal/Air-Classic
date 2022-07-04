@@ -138,7 +138,7 @@
 		place { control="back,forward" region=nav x=36 y=1 height=35 width=30 spacing=18 }
 		place { control="label_store,label_library" region=nav start=forward y=-1 x=5 height=35 spacing=8 }
 		place { control="library_filters" region=nav start=label_library height=35 width=15 x=0 y=0 }
-		place { control="label_community,label_me,label_news,label_console" region=nav start=library_filters y=-1 x=5 height=35 spacing=8 }
+		place { control="label_community,label_me,label_news" region=nav start=library_filters y=-1 x=5 height=35 spacing=8 }
 
 		//Body
 		region { name="body" y=36 height=max width=max margin-bottom=30 }
@@ -174,6 +174,6 @@
 
 		region { name=hidden height=0 width=0 }
 		place { control="URLStatusImage,label_search_icon" region=hidden }
-		place { control="library_music_add_button,label_library_zoom,home,refresh,stop,EVCert,subnavgroup_library,label_zoom_separator,label_library_view,library_filters_details,library_filters_list,library_filters_grid,label_community_new,label_community_gamehubs,label_community_forums,label_community_workshop,label_community_greenlight,label_community_friends,label_community_profile,label_community_marketplace,label_community_groups,BetaFlagBigPicture,fullscreen" region=hidden }
+		place { control="library_music_add_button,label_console,label_library_zoom,home,refresh,stop,EVCert,subnavgroup_library,label_zoom_separator,label_library_view,library_filters_details,library_filters_list,library_filters_grid,label_community_new,label_community_gamehubs,label_community_forums,label_community_workshop,label_community_greenlight,label_community_friends,label_community_profile,label_community_marketplace,label_community_groups,BetaFlagBigPicture,fullscreen" region=hidden }
 	}
 }

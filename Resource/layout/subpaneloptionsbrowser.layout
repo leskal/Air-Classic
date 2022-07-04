@@ -10,7 +10,7 @@
 
     place { control=ClientBrowserAuthHomePage start=OverlayHomePage width=max dir=down y=25 }
 
-    place { controls=ClearWebCacheButton,ClearAllCookiesButton start=ClientBrowserAuthHomePage dir=down y=30 spacing=5 }
+    place { controls=ClearAllBrowserDataButton start=ClientBrowserAuthHomePage dir=down y=30 spacing=5 }
 
     place { controls=Divider1 height=0 width=0 }
   }
