@@ -11,5 +11,6 @@ resource/layout/subpaneloptionscontroller.layout {
 
 		place { control=TitleLabel,Divider1,Divider2 height=0 width=0 }
 		place { control=DisableNotificationsCheckbox start=GuideConfigButton dir=down y=30 }
+		place { control=DisableDualSenseUpdatesCheckbox start=DisableNotificationsCheckbox dir=down }
 	}
 }
